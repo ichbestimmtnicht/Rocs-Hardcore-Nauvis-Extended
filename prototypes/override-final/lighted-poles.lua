@@ -21,7 +21,7 @@ for _, entity in pairs(data.raw["electric-pole"]) do
         shift[2] = shift[2] + NAME_TO_ICON_SHIFT[entity.name][2]
       end
       new_layers[#new_layers + 1] = {
-        filename = "__Rocs-Hardcore-Nauvis__/graphics/entity-lighted-icons.png",
+        filename = "__Rocs-Hardcore-Nauvis-Extended__/graphics/entity-lighted-icons.png",
         priority = "extra-high",
         width = 32,
         height = 32,
